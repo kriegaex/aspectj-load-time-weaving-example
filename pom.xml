@@ -70,7 +70,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.9</version>
                 <configuration>
-                    <argLine>-XX:-UseSplitVerifier</argLine>
                     <argLine>-javaagent:${user.home}/.m2/repository/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar</argLine>
                 </configuration>
             </plugin>
